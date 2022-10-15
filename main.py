@@ -2,13 +2,13 @@ import requests as req
 import unidecode
 import sys
 import json
-import time
 
 from termcolor import colored
 from bs4 import BeautifulSoup as bs
 
 
 COLOR = True
+MESSAGE = True
 
 
 URL = 'https://www.tibiawiki.com.br/wiki/Lista_de_Criaturas'
@@ -35,12 +35,13 @@ LOOT_DICT_VALUES = {
 
 
 def monster_own_page(complement):
-  global LOOT_DICT_VALUES, COLOR
+  global LOOT_DICT_VALUES, COLOR, MESSAGE
 
-  if COLOR:
-    print(f'{colored("Extracting information from creature", on_color="on_green", attrs=["bold"])} => {colored(complement.replace("/wiki/", "").replace("_", " "), color="green", attrs=["bold"])}')
-  else:
-    print(f'Extracting information from creature => {complement.replace("/wiki/", "").replace("_", " ")}')
+  if MESSAGE:
+    if COLOR:
+      print(f'{colored("Extracting information from creature", on_color="on_green", attrs=["bold"])} => {colored(complement.replace("/wiki/", "").replace("_", " "), color="green", attrs=["bold"])}')
+    else:
+      print(f'Extracting information from creature => {complement.replace("/wiki/", "").replace("_", " ")}')
 
   page = req.get(BASE_URL + complement)
 
@@ -63,17 +64,22 @@ def monster_own_page(complement):
 
         td_parent_divs = td.parent.find_all('div')
 
-        if COLOR:
-          print(f"\t{colored('Extracting habilidades:', attrs=['bold'], on_color='on_yellow')}")
-        else:
-          print(f'\tExtracting habilidades:')
+        if MESSAGE:
+          if COLOR:
+            print(f"\t{colored('Extracting habilidades:', attrs=['bold'], on_color='on_yellow')}")
+          else:
+            print(f'\tExtracting habilidades:')
 
         if len(td_parent_divs) == 0:
           formated = unidecode.unidecode(td.parent.text.strip().replace('\n', '')).replace('Habilidades:', '').split(',')
           habilities = {'list': [f.strip() for f in formated]}
-          
+
+        if MESSAGE:
           for hab in formated:
-            print(f"\t\t{colored(hab, color='yellow', attrs=['bold'])}")
+            if COLOR:
+              print(f"\t\t{colored(hab, color='yellow', attrs=['bold'])}")
+            else:
+              print(f"\t\t{hab}")
 
         else:
           __ = []
@@ -85,37 +91,42 @@ def monster_own_page(complement):
 
           habilities['object'] = __
 
-          for obj in habilities['object']:
-            for k, v in obj.items():
-              if COLOR:
-                print(f"\t\t{colored(k, color='yellow', attrs=['bold'])} => ")
-              else:
-                print(f'\t\t{k} =>')
-              for i in v:
+          if MESSAGE:
+            for obj in habilities['object']:
+              for k, v in obj.items():
                 if COLOR:
-                  print(f"\t\t\t{colored(i, color='grey', attrs=['bold'])}")
+                  print(f"\t\t{colored(k, color='yellow', attrs=['bold'])} => ")
                 else:
-                  print(f'\t\t\t{i}')
+                  print(f'\t\t{k} =>')
+                for i in v:
+                  if COLOR:
+                    print(f"\t\t\t{colored(i, color='grey', attrs=['bold'])}")
+                  else:
+                    print(f'\t\t\t{i}')
     except:
-      print(f'failed to get habilities from {complement.replace("/wiki/", "")}')
+      if MESSAGE:
+        print(f'failed to get habilities from {complement.replace("/wiki/", "")}')
 
     try:
       if td.text.strip() == 'Localização:':
         for _ in td.parent.find_all('a'):
           local_existence.append(_.text.strip())
 
-        if COLOR:
-          print(f'\t{colored("Extracting localização:", on_color="on_red", attrs=["bold"])}')
-        else:
-          print(f'\tExtracting localização:')
-
-        for loc in local_existence:
+        if MESSAGE:
           if COLOR:
-            print(f"\t\t{colored(loc, color='red', attrs=['bold'])}")
+            print(f'\t{colored("Extracting localização:", on_color="on_red", attrs=["bold"])}')
           else:
-            print(f'\t\t{loc}')
+            print(f'\tExtracting localização:')
+
+        if MESSAGE:
+          for loc in local_existence:
+            if COLOR:
+              print(f"\t\t{colored(loc, color='red', attrs=['bold'])}")
+            else:
+              print(f'\t\t{loc}')
     except:
-      print(f'failed to get local existence from {complement.replace("/wiki/", "")}')
+      if MESSAGE:
+        print(f'failed to get local existence from {complement.replace("/wiki/", "")}')
 
     try:
       if td.text.strip() == 'Loot:':
@@ -128,33 +139,38 @@ def monster_own_page(complement):
 
           loot['object'] = loot_arr
 
-          if COLOR:
-            print(f"\t{colored('Extracting loot:', on_color='on_blue', attrs=['bold'])}")
-          else:
-            print(f"\tExtracting loot:")
+          if MESSAGE:
+            if COLOR:
+              print(f"\t{colored('Extracting loot:', on_color='on_blue', attrs=['bold'])}")
+            else:
+              print(f"\tExtracting loot:")
 
-          for obj in loot['object']:
-            for k, v in obj.items():
-              if COLOR:
-                print(f"\t\t{colored(k, 'blue', attrs=['bold'])} => {colored(v, 'cyan', attrs=['bold'])}")
-              else:
-                print(f"\t\tExtracting loot: {k} => {v}")
+          if MESSAGE:
+            for obj in loot['object']:
+              for k, v in obj.items():
+                if COLOR:
+                  print(f"\t\t{colored(k, 'blue', attrs=['bold'])} => {colored(v, 'cyan', attrs=['bold'])}")
+                else:
+                  print(f"\t\tExtracting loot: {k} => {v}")
         except:
-          if COLOR:
-            print(f"\t{colored('Extracting loot:', on_color='on_blue', attrs=['bold'])}")
-          else:
-            print(f"\tExtracting loot:")
+          if MESSAGE:
+            if COLOR:
+              print(f"\t{colored('Extracting loot:', on_color='on_blue', attrs=['bold'])}")
+            else:
+              print(f"\tExtracting loot:")
 
           loot['list'] = unidecode.unidecode(td.parent.text.strip().replace('\n', ' ').replace('\u00a0', '').replace('Loot:  ', ''))
 
-          for i in loot['list'].split(','):
-            if COLOR:
-              print(f"\t\t{colored(i.strip(), 'cyan', attrs=['bold'])}")
-            else:
-              print(f"\t\t{i}")
+          if MESSAGE:
+            for i in loot['list'].split(','):
+              if COLOR:
+                print(f"\t\t{colored(i.strip(), 'cyan', attrs=['bold'])}")
+              else:
+                print(f"\t\t{i}")
 
     except:
-      print(f'failed to get loot from {complement.replace("/wiki/", "")}')
+      if MESSAGE:
+        print(f'failed to get loot from {complement.replace("/wiki/", "")}')
 
     if td.text.strip() == 'Comportamento:':
       _ = td.parent.text.strip().replace('\n', '')
@@ -183,13 +199,15 @@ def monster_own_page(complement):
       if 'Eles sempre irão correr e não atacam' in _:
         behavior['fight'] = 'just run'
       
-      print(f"\t{colored('Extracting behavior: ', on_color='on_magenta', attrs=['bold'])}")
+      if MESSAGE:
+        print(f"\t{colored('Extracting behavior: ', on_color='on_magenta', attrs=['bold'])}")
 
-      for k, v in behavior.items():
-        if COLOR:
-          print(f"\t\t{colored(k, 'magenta', attrs=['bold'])} => {colored(v, 'white', attrs=['bold'])}")
-        else:
-          print(f'\tExtracting behavior: {k} => {v}')
+      if MESSAGE:
+        for k, v in behavior.items():
+          if COLOR:
+            print(f"\t\t{colored(k, 'magenta', attrs=['bold'])} => {colored(v, 'white', attrs=['bold'])}")
+          else:
+            print(f'\tExtracting behavior: {k} => {v}')
 
   return behavior, loot, local_existence, habilities
 
@@ -219,7 +237,6 @@ def parse_tr(tr):
         _ = td.text.strip().replace('\n', ' ').replace('\u2010', '---').replace('\u221e', '---')
         row.append(_)
       except:
-        print('failed to charms')
         row.append('---')
     
     if c == 5:
@@ -227,7 +244,6 @@ def parse_tr(tr):
         _ = DICT_VALUES[td.find('img', alt=True)['alt'].strip()]
         row.append(_)
       except:
-        print('failed to find img alt')
         row.append('---')
     
     c += 1
@@ -241,6 +257,12 @@ def parse_tr(tr):
 
 
 if __name__ == '__main__':
+
+  if '--nocolor' in sys.argv:
+    COLOR = False
+  if '--nomsg' in sys.argv:
+    MESSAGE = False
+
   page = req.get(URL)
 
   soup = bs(page.content, 'html.parser')
