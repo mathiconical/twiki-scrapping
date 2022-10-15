@@ -97,9 +97,9 @@
             "can block respawn": true
         },
         "Loot": {
-            "Comum:": "Decorative Ribbon.",
-            "Semi-Raro:": "Abyssador's Lash(sempre).",
-            "Raro:": "Crystal Crossbow, Crystalline Sword, Mycological Bow, Crystalline Axe, Mycological Mace, Shiny Blade."
+            "Common": "Decorative Ribbon.",
+            "Semi-Rare": "Abyssador's Lash(sempre).",
+            "Rare": "Crystal Crossbow, Crystalline Sword, Mycological Bow, Crystalline Axe, Mycological Mace, Shiny Blade."
         }
     },
     {
@@ -114,8 +114,8 @@
             "fight": "melee"
         },
         "Loot": {
-            "Incomum:": "0-3 Small Amethysts, 0-3 Small Rubies, 0-3 Small Sapphires, Black Pearl, White Pearl.",
-            "Raro:": "0-5 Shrimps, Fish."
+            "Uncommon": "0-3 Small Amethysts, 0-3 Small Rubies, 0-3 Small Sapphires, Black Pearl, White Pearl.",
+            "Rare": "0-5 Shrimps, Fish."
         }
     },
     {
@@ -142,115 +142,7 @@
             "run with low life": false
         },
         "Loot": {
-            "Incomum:": "Glob of Acid Slime."
-        }
-    },
-    {
-        "Creature": "Acolyte of Darkness",
-        "HP": "325",
-        "Exp": "200",
-        "Charms": "30",
-        "Difficult": "Easy",
-        "Behavior": {
-            "can block respawn": false,
-            "fight": "melee and range",
-            "run with low life": false
-        },
-        "Loot": {
-            "Semi-Raro:": "Midnight Shard."
-        }
-    },
-    {
-        "Creature": "Acolyte of the Cult",
-        "HP": "390",
-        "Exp": "300",
-        "Charms": "25",
-        "Difficult": "Medium",
-        "Behavior": {
-            "can block respawn": true,
-            "run with low life": false,
-            "fight": "range"
-        },
-        "Loot": {
-            "Comum:": "Terra Rod, Cultish Symbol, Broken Key Ring.",
-            "Incomum:": "0-40 Gold Coins.",
-            "Semi-Raro:": "Cultish Robe, Rope Belt.",
-            "Raro:": "Morning Star.",
-            "Muito Raro:": "Orange Book, Small Emerald, Life Ring, Dragon Necklace, Pirate Voodoo Doll, Music Sheet (Second)."
-        }
-    },
-    {
-        "Creature": "Active Lava Hole",
-        "HP": "---",
-        "Exp": "--",
-        "Charms": "------",
-        "Difficult": "------",
-        "Behavior": {
-            "can block respawn": false
-        },
-        "Loot": {}
-    },
-    {
-        "Creature": "Adept of the Cult",
-        "HP": "430",
-        "Exp": "400",
-        "Charms": "25",
-        "Difficult": "Medium",
-        "Behavior": {
-            "can block respawn": true,
-            "run with low life": false,
-            "fight": "range"
-        },
-        "Loot": {
-            "Comum:": "Small Ruby, Hailstorm Rod, Red Robe, Lunar Staff, Cultish Symbol, Broken Key Ring.",
-            "Incomum:": "0-57 Gold Coins.",
-            "Semi-Raro:": "Cultish Robe, Rope Belt.",
-            "Raro:": "Pirate Voodoo Doll.",
-            "Muito Raro:": "Orange Book, Time Ring, Silver Amulet, Clerical Mace, Music Sheet (Third), Amber Staff."
-        }
-    },
-    {
-        "Creature": "Adult Goanna",
-        "HP": "8300",
-        "Exp": "6650",
-        "Charms": "50",
-        "Difficult": "Hard",
-        "Behavior": {
-            "run with low life": true,
-            "can block respawn": true
-        },
-        "Loot": {
-            "Comum:": "Small Tortoise.",
-            "Incomum:": "0-? Platinum Coins, 0-? Envenomed Arrows.",
-            "Semi-Raro:": "0-? Earth Arrows, 0-? Small Sapphires, Small Enchanted Emerald, Terra Amulet, Terra Hood, Emerald Bangle, Terra Rod, Blue Crystal Shard, Green Crystal Splinter, Red Goanna Scale, Goanna Meat.",
-            "Raro:": "Silver Brooch, White Pearl, Small Amethyst, Yellow Gem, Green Gem, Serpent Sword, Wood Cape, Sacred Tree Amulet, Fur Armor, Onyx Chip, 0-? Opals, Coral Brooch, Gemmed Figurine, Lizard Heart, Scared Frog, Goanna Claw."
-        }
-    },
-    {
-        "Creature": "Adventurer",
-        "HP": "65",
-        "Exp": "0",
-        "Charms": "15",
-        "Difficult": "Easy",
-        "Behavior": {
-            "can block respawn": true,
-            "fight": "just run"
-        },
-        "Loot": {}
-    },
-    {
-        "Creature": "Afflicted Strider",
-        "HP": "10000",
-        "Exp": "5700",
-        "Charms": "50",
-        "Difficult": "Hard",
-        "Behavior": {
-            "can block respawn": false
-        },
-        "Loot": {
-            "Comum:": "Afflicted Strider Head, Magma Coat, Ice Rapier, Serpent Sword, Broadsword, Machete, Knight Axe, Knight Armor, Doublet, Haunted Blade, Titan Axe, Mercenary Sword, Spirit Cloak, Focus Cape, Belted Cape.",
-            "Incomum:": "1-X Platinum Coins.",
-            "Semi-Raro:": "Violet Gem, Guardian Halberd, Crystal Sword, Violet Crystal Shard, Green Crystal Shard, Afflicted Strider Worms."
+            "Uncommon": "Glob of Acid Slime."
         }
     }
 ]

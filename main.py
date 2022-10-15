@@ -14,7 +14,17 @@ DICT_VALUES = {
   'Desafiador': 'Challenging'
 }
 
+LOOT_DICT_VALUES = {
+  'Incomum': 'Uncommon',
+  'Comum': 'Common',
+  'Semi-Raro': 'Semi-Rare',
+  'Raro': 'Rare',
+  'Muito Raro': 'Very Rare'
+}
+
 def monster_own_page(complement):
+  global LOOT_DICT_VALUES
+
   page = req.get(BASE_URL + complement)
 
   soup = bs(page.content, 'html.parser')
@@ -35,7 +45,7 @@ def monster_own_page(complement):
         table_tr = td.parent.find('table').find('tbody').find_all('tr')
 
         for _ in range(0, len(table_tr), 2):
-          loot[table_tr[_].text] = table_tr[_ - 1].text.strip().replace('*', '')
+          loot[LOOT_DICT_VALUES[table_tr[_].text[:-1]]] = table_tr[_ - 1].text.strip().replace('*', '')
     except:
       print(f'failed to get loot from {complement}')
 
