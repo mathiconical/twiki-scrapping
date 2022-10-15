@@ -200,7 +200,10 @@ def monster_own_page(complement):
         behavior['fight'] = 'just run'
       
       if MESSAGE:
-        print(f"\t{colored('Extracting behavior: ', on_color='on_magenta', attrs=['bold'])}")
+        if COLOR:
+          print(f"\t{colored('Extracting behavior: ', on_color='on_magenta', attrs=['bold'])}")
+        else:
+          print(f"\tExtracting behavior:'")
 
       if MESSAGE:
         for k, v in behavior.items():
