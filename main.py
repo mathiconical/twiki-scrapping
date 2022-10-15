@@ -146,7 +146,7 @@ if __name__ == '__main__':
   default['Behavior'] = ''
   default['Loot'] = ''
 
-  for tr in table_tr[10:20]:
+  for tr in table_tr[1:]:
     data.append(dict(zip(default, list(parse_tr(tr)))))
 
   with open('.creatures_list.json', 'w') as file:
