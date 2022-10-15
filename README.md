@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="#Objetivo">Objetivo</a>
-  <a href="#Pré-requisitos">Pré-requisitos</a>
-  <a href="#Rodando o script">Rodar o Script</a>
+  <a href="#Pré-requisitos">Pré-requisitos / Instalação e Execução</a>
   <a href="#Exemplo">Exemplo</a>
   <a href="#Autor">Autor</a>
 </p>
@@ -36,10 +35,11 @@
 ### Pré-requisitos
 Ferramentas necessárias:
   [Python](https://python.org/)
-    - [x] beautifulsoup4 == 4.11.1
-    - [x] requests == 2.27.1
-    - [x] termcolor == 2.0.1
-    - [x] Unidecode == 1.3.6
+
+  > beautifulsoup4 == 4.11.1
+  > requests == 2.27.1
+  > termcolor == 2.0.1
+  > Unidecode == 1.3.6
 
 ### Instalando as ferramentas:
 > pip3 install -r requeriments.txt
