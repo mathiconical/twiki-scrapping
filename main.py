@@ -149,5 +149,5 @@ if __name__ == '__main__':
   for tr in table_tr[1:]:
     data.append(dict(zip(default, list(parse_tr(tr)))))
 
-  with open('.creatures_list.json', 'w') as file:
+  with open('creatures_list.json', 'w') as file:
     json.dump(data, file, indent=4)
