@@ -203,7 +203,7 @@ def monster_own_page(complement):
         if COLOR:
           print(f"\t{colored('Extracting behavior: ', on_color='on_magenta', attrs=['bold'])}")
         else:
-          print(f"\tExtracting behavior:'")
+          print(f"\tExtracting behavior:")
 
       if MESSAGE:
         for k, v in behavior.items():
