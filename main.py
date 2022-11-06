@@ -35,8 +35,21 @@ def monster_own_page(complement):
 
   table_all_tr = table.find_all('tr')
 
-  behavior = {}
-  loot = {}
+  behavior = {
+    'RunWithLowLife': False,
+    'CanBlockRespawn': False,
+    'Melee': False,
+    'RunWithLowLife': False,
+    'MeleeAndRange': False,
+    'Range': False,
+    'JustRun': False,
+  }
+
+  loot = {
+    'canOpenCorpse': False,
+    'dropLoots': False,
+    'drop': []
+  }
 
   for tr in table_all_tr:
     td = tr.find('td')
@@ -139,7 +152,7 @@ def monster_own_page(complement):
         behavior['RunWithLowLife'] = True
 
       if 'Não é possível bloquear o respawn dessa criatura' in _:
-        behavior['CanBlockRespawn'] = True
+        behavior['CanBlockRespawn'] = False
 
       if 'Combate corpo a corpo' in _:
         behavior['Melee'] = True
@@ -153,7 +166,7 @@ def monster_own_page(complement):
       if 'Combate corpo a corpo e à distância' in _:
         behavior['MeleeAndRange'] = True
 
-      if 'Combate à distância' in _:
+      if 'Combate à distância' in _ or 'corpo a corpo e à distância' in _:
         behavior['Range'] = True
 
       if 'Eles sempre irão correr e não atacam' in _:
