@@ -4,7 +4,12 @@
         "HP": "200000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -19,7 +24,12 @@
         "HP": "260",
         "EXP": "157",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -39,7 +49,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -54,7 +69,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -69,7 +89,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -84,7 +109,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -99,7 +129,12 @@
         "HP": "8900",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -114,7 +149,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -129,7 +169,12 @@
         "HP": "350000",
         "EXP": "35000",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -152,8 +197,11 @@
         "EXP": "200",
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
-            "Melee": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -174,8 +222,12 @@
         "HP": "185",
         "EXP": "70",
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": false,
@@ -190,9 +242,12 @@
         "HP": "250",
         "EXP": "250",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -207,10 +262,12 @@
         "HP": "325",
         "EXP": "200",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -225,9 +282,12 @@
         "HP": "390",
         "EXP": "300",
         "Behavior": {
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "Range": true
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -254,7 +314,12 @@
         "HP": "",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -269,9 +334,12 @@
         "HP": "430",
         "EXP": "400",
         "Behavior": {
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "Range": true
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -302,7 +370,11 @@
         "EXP": "6650",
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -346,7 +418,11 @@
         "HP": "65",
         "EXP": null,
         "Behavior": {
+            "RunWithLowLife": false,
             "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
             "JustRun": true
         },
         "Loot": {
@@ -362,7 +438,12 @@
         "HP": "10000",
         "EXP": "5700",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -398,7 +479,12 @@
         "HP": "105000?",
         "EXP": "20000?",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -413,7 +499,12 @@
         "HP": "15000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -428,7 +519,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -443,7 +539,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -458,7 +559,12 @@
         "HP": "15",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -481,7 +587,12 @@
         "HP": "7000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -496,10 +607,12 @@
         "HP": "320000",
         "EXP": "55000",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -551,9 +664,12 @@
         "HP": "110",
         "EXP": "60",
         "Behavior": {
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "Range": true
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -578,10 +694,12 @@
         "HP": "26000",
         "EXP": "21500",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -627,7 +745,12 @@
         "HP": "300000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -642,8 +765,12 @@
         "HP": "30000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -658,8 +785,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -675,8 +806,11 @@
         "EXP": null,
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
-            "Melee": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -691,10 +825,12 @@
         "HP": "9100",
         "EXP": "8100",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -736,8 +872,11 @@
         "EXP": null,
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
-            "Melee": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -752,9 +891,12 @@
         "HP": "1000",
         "EXP": "720",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -783,7 +925,12 @@
         "HP": "900000",
         "EXP": "70000",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -844,7 +991,12 @@
         "HP": "65",
         "EXP": "50",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -859,8 +1011,12 @@
         "HP": "8200",
         "EXP": "6000",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -907,7 +1063,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -922,7 +1083,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -938,8 +1104,11 @@
         "EXP": "475",
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
-            "Melee": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -955,8 +1124,12 @@
         "HP": "260",
         "EXP": "150",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -973,10 +1146,12 @@
         "HP": "13000",
         "EXP": "9860",
         "Behavior": {
-            "Melee": true,
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": true,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1009,9 +1184,12 @@
         "HP": "6400",
         "EXP": "5500",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1039,9 +1217,12 @@
         "HP": "3200",
         "EXP": "2600",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1059,9 +1240,12 @@
         "HP": "240",
         "EXP": "150",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1079,7 +1263,12 @@
         "HP": "1000",
         "EXP": "800",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1099,9 +1288,12 @@
         "HP": "1400",
         "EXP": "950",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1120,9 +1312,12 @@
         "HP": "800",
         "EXP": "625",
         "Behavior": {
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "Range": true
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1142,9 +1337,12 @@
         "HP": "65",
         "EXP": "40",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1161,7 +1359,12 @@
         "HP": "20",
         "EXP": "3",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1176,7 +1379,12 @@
         "HP": "450",
         "EXP": "400",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1200,7 +1408,12 @@
         "HP": "7500",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1215,8 +1428,12 @@
         "HP": "7500",
         "EXP": "15000",
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1232,8 +1449,11 @@
         "EXP": "10000",
         "Behavior": {
             "RunWithLowLife": true,
+            "CanBlockRespawn": true,
             "Melee": true,
-            "CanBlockRespawn": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1285,7 +1505,12 @@
         "HP": "",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1300,8 +1525,12 @@
         "HP": "290000",
         "EXP": "50000",
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1354,7 +1583,12 @@
         "HP": "160000?",
         "EXP": "80000?",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1371,7 +1605,10 @@
         "Behavior": {
             "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "Range": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1397,7 +1634,12 @@
         "HP": "1700",
         "EXP": "1800",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1421,9 +1663,11 @@
         "EXP": "4700",
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "MeleeAndRange": true
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1466,8 +1710,12 @@
         "HP": "300",
         "EXP": "300",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1498,7 +1746,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1515,7 +1768,10 @@
         "Behavior": {
             "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "Range": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1549,7 +1805,12 @@
         "HP": "550",
         "EXP": "500",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1564,7 +1825,12 @@
         "HP": "4200",
         "EXP": "4000",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1582,7 +1848,12 @@
         "HP": "500",
         "EXP": "550",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1611,7 +1882,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1626,7 +1902,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1641,9 +1922,12 @@
         "HP": "5000",
         "EXP": "3100",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1665,7 +1949,12 @@
         "HP": "1500",
         "EXP": "900",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1691,9 +1980,12 @@
         "HP": "2100",
         "EXP": "1200",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1719,9 +2011,12 @@
         "HP": "2600",
         "EXP": "1700",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1748,7 +2043,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1763,10 +2063,12 @@
         "HP": "175",
         "EXP": "105",
         "Behavior": {
-            "Melee": true,
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": true,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1793,8 +2095,12 @@
         "HP": "550",
         "EXP": "305",
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": false,
@@ -1809,8 +2115,12 @@
         "HP": "365",
         "EXP": "140",
         "Behavior": {
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": false,
@@ -1825,7 +2135,12 @@
         "HP": "50000",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1840,7 +2155,12 @@
         "HP": "7500",
         "EXP": "7000",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1856,7 +2176,12 @@
         "HP": "60",
         "EXP": "20",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1878,7 +2203,12 @@
         "HP": null,
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1893,7 +2223,12 @@
         "HP": "380",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1908,7 +2243,12 @@
         "HP": "",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1923,7 +2263,12 @@
         "HP": "500",
         "EXP": null,
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1939,8 +2284,11 @@
         "EXP": "5",
         "Behavior": {
             "RunWithLowLife": true,
-            "CanBlockRespawn": true,
-            "Melee": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1964,7 +2312,12 @@
         "HP": "500",
         "EXP": "450",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -1987,8 +2340,11 @@
         "EXP": "65",
         "Behavior": {
             "RunWithLowLife": true,
+            "CanBlockRespawn": true,
             "Melee": true,
-            "CanBlockRespawn": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2011,10 +2367,12 @@
         "HP": "2500",
         "EXP": "400",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "Melee": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": false,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2030,8 +2388,12 @@
         "HP": "3275",
         "EXP": "500",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2052,7 +2414,12 @@
         "HP": "1100",
         "EXP": "750",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2068,9 +2435,11 @@
         "EXP": "900",
         "Behavior": {
             "RunWithLowLife": true,
-            "Melee": true,
             "CanBlockRespawn": true,
-            "MeleeAndRange": true
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2107,7 +2476,12 @@
         "HP": "600",
         "EXP": "355",
         "Behavior": {
-            "CanBlockRespawn": true
+            "RunWithLowLife": false,
+            "CanBlockRespawn": true,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2132,9 +2506,12 @@
         "HP": "305",
         "EXP": "195",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2163,7 +2540,10 @@
         "Behavior": {
             "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "Range": true
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2190,10 +2570,12 @@
         "HP": "100",
         "EXP": "85",
         "Behavior": {
-            "Melee": true,
-            "CanBlockRespawn": true,
             "RunWithLowLife": true,
-            "MeleeAndRange": true
+            "CanBlockRespawn": true,
+            "Melee": true,
+            "MeleeAndRange": true,
+            "Range": true,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2220,9 +2602,12 @@
         "HP": "135",
         "EXP": "85",
         "Behavior": {
-            "Melee": true,
+            "RunWithLowLife": true,
             "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "Melee": true,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2250,9 +2635,12 @@
         "HP": "2800",
         "EXP": "2200",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2270,9 +2658,12 @@
         "HP": "3200",
         "EXP": "2500",
         "Behavior": {
-            "CanBlockRespawn": true,
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
             "Melee": true,
-            "RunWithLowLife": true
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
@@ -2291,8 +2682,12 @@
         "HP": "5025",
         "EXP": "3000",
         "Behavior": {
-            "CanBlockRespawn": true,
-            "RunWithLowLife": true
+            "RunWithLowLife": true,
+            "CanBlockRespawn": false,
+            "Melee": false,
+            "MeleeAndRange": false,
+            "Range": false,
+            "JustRun": false
         },
         "Loot": {
             "canOpenCorpse": true,
