@@ -1,6 +1,6 @@
 <h1 align="center">TWIKI-SCRAPPING</h1>
 
-<p align="center">Visa obter dados necessários do fã site TibiaWiki.com.br em formato JSON</p>
+<p align="center">Visa obter dados necessários do fã site <b><i><a href="tibiawiki.com.br">Tibia Wiki BR</a></i></b>  em formato JSON.</p>
 
 <p align="center">
   <a href="#Objetivo">Objetivo</a>
@@ -15,7 +15,7 @@
 
 ### Objetivo
 
- Obter uma especíe de biblioteca em JSON removida do fã site TIbiaWiki.com.br e para fins de estudos, tanto das ferramentas quanto de como utilizar o arquivo gerado em algum projeto futuro.
+ Obter uma especíe de biblioteca em JSON removida do fã site Tibia Wiki BR e para fins de estudos, tanto das ferramentas quanto de como utilizar o arquivo gerado em algum projeto futuro.
 
 ### Features
 - [x] HP e EXP
@@ -36,10 +36,11 @@
 Ferramentas necessárias:
   [Python](https://python.org/)
 
-  > beautifulsoup4 == 4.11.1
-  > requests == 2.27.1
-  > termcolor == 2.0.1
-  > Unidecode == 1.3.6
+> beautifulsoup4==4.11.1
+> psutil==5.9.3
+> requests==2.27.1
+> termcolor==2.1.0
+> Unidecode==1.3.6
 
 ### Instalando as ferramentas:
 > pip3 install -r requeriments.txt
@@ -53,8 +54,8 @@ $ git clone <https://github.com/mathiconical/twiki-scrapping>
 # Acesse a pasta do projeto via terminal / cmd
 $ cd twiki-scrapping
 
-# Execute o comando
-$ python main.py
+# Execute o comando para mais informações
+$ python main.py --help
 
 # Caso queira desabilitar o esquema de cores, use este comando
 $ python main.py --nocolor
@@ -62,7 +63,12 @@ $ python main.py --nocolor
 # Caso queira desabilitar o modo de mensagens, use este comando
 $ python main.py --nomsg
 
-# O script começará a realizar requisições e no final irá salvar tudo em um JSON no local de execução do script. ( Este processo pode demorar )
+# Por padrão a quantidade de threads é a metade possível, caso queira aumentar, use este comando
+$ python main.py --thread 20
+
+## Nota: Se a quantidade de thread passada for maior que o que sua máquina suporta ou menor igual a zero, será definido respectivamente o número máximo suportado e a metade.
+
+# O script começará a realizar requisições e no final irá salvar tudo em um JSON. ( Este processo pode demorar dependendo diretamente do número de threads passado )
 ```
 
 ### Exemplo
